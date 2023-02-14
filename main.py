@@ -12,7 +12,6 @@ def main():
     
     print('start append')
     for pdf_file in sort_list_folder_pdf:
-        # with open(PDF_DIR + "/" + pdf_file, "rb") as f:
         print("test")
         pdf_file_merge.append(PyPDF2.PdfReader(PDF_DIR + "/" + pdf_file, 'rb'))
     # print('start wirte ')
