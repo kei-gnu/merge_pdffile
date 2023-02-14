@@ -11,6 +11,6 @@ This site requires to download PDF files for each chapter. Therefore, each PDF f
 
 ## Installation
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
