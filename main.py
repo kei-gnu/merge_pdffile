@@ -11,10 +11,11 @@ def main():
     print(sort_list_folder_pdf)
     
     print('start append')
-    for pdf_file in list_folder_pdf:
+    for pdf_file in sort_list_folder_pdf:
         # with open(PDF_DIR + "/" + pdf_file, "rb") as f:
+        print("test")
         pdf_file_merge.append(PyPDF2.PdfReader(PDF_DIR + "/" + pdf_file, 'rb'))
-    print('start wirte ')
+    # print('start wirte ')
     pdf_file_merge.write("./makefile_oreily.pdf")
     pdf_file_merge.close()
 
