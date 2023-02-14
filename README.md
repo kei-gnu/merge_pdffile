@@ -9,7 +9,8 @@ This site requires to download PDF files for each chapter. Therefore, each PDF f
 - Python3: 3.10.1 
 - PyPDF2: 3.0.1
 
-
-
-
+## Installation
+```
+$ pip install -r requirements.txt
+```
 
